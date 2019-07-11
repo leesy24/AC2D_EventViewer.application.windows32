@@ -1,1 +1,6 @@
 /source
+/*.log
+/data/config_0.csv
+/data/config_1.csv
+/data/regions_0.csv
+/data/regions_1.csv
