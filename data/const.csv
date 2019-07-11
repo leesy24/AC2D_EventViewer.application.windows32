@@ -5,6 +5,7 @@ MACHINE_NAME,,Machine name. It will display at the top center of screen.
 SYSTEM_PASSWORD,0000,4-Digits system password to configure settings
 SYSTEM_UI_TIMEOUT,60,Timeout value for UI displaying in seconds
 FRAME_RATE,20,Frame rate per second of screen update in Hz. 20Hz=50msec 50Hz=20msec
+PS_DATA_PULSE_WIDTH_THRESHOLD,4096,Point pulse width thresh hold value to skip data.
 PS_DATA_SAVE_ALWAYS_DURATION,1,Time duration of received PS data keep in hours to save on disk.
 PS_DATA_SAVE_EVENTS_DURATION_DEFAULT,2000,Default time duration of event PS data keep in milli-seconds to save on disk.
 PS_DATA_SAVE_EVENTS_DURATION_LIMIT,30000,Limit time duration of event PS data keep in milli-seconds to save on disk.
@@ -43,7 +44,7 @@ C_UI_BUTTONS_TEXT,FFFFFFFF,Button text color. Color data format is AARRGGBB
 C_UI_BUTTONS_BOX,FFFFFFFF,Button box color. Color data format is AARRGGBB
 W_UI_BUTTONS_BOX,1,Button box weight.
 C_PS_DATA_LINE,FF0000FF,Scan points line default color. Color data format is AARRGGBB
-C_PS_DATA_POINT,FFFF0000,Scan point default color. Color data format is AARRGGBB
+C_PS_DATA_POINT,FF0000FF,Scan point default color. Color data format is AARRGGBB
 W_PS_DATA_LINE,1,Scan line and point default weight.
 C_PS_DATA_RECT_FILL,C0080808,Scan info box fill color. Color data format is AARRGGBB
 C_PS_DATA_RECT_STROKE,FFFFFFFF,Scan info box border color. Color data format is AARRGGBB
